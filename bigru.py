@@ -5,7 +5,7 @@ from tensorflow.keras.layers import Bidirectional
 from tensorflow.keras.layers import Input
 from tensorflow.keras import Model
 from tensorflow.keras.layers import Embedding
-import sys
+import sys 
 
 def near_disonances_notes_model(config, notes_encoding_size, durations_encoding_size):
 

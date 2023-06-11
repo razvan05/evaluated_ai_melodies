@@ -33,8 +33,8 @@ def generate():
     config.learning_rate = 0.0001
     config.sequence_length = 20
     config.hidden_values = 200
-    config.epochs = 1
-    config.batch_size = 32
+    config.epochs = 5
+    config.batch_size = 64
     
     unique_notes = np.load('./models/unique_notes.npy', allow_pickle = True)
     unique_dur = np.load('./models/unique_dur.npy', allow_pickle = True)
